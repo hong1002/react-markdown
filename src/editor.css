@@ -1,0 +1,32 @@
+html {
+    font-size: 20px;
+}
+.MarkdownEditor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+textarea {
+    min-width: 30rem;
+    min-height: 25rem;
+    padding: 0.5rem;
+    resize: none;
+    vertical-align: middle;
+    border: none;
+    border-right: 1px solid #ccc;
+    background: #36312C;
+    color: #EBD1B7;
+    font-family:'Monaco', courier, monospace;
+    font-size: 15px;
+}
+.content {
+    min-width: 30rem;
+    min-height: 25rem;
+    padding: 0.5rem;
+    background: #f6f6f6;
+    word-wrap:break-word;
+    overflow: auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif ;
+    text-align: left;
+}

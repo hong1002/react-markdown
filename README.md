@@ -1,2 +1,3 @@
-# react-markdown
-react markdown
+# run
+* yarn add package
+* yarn start
